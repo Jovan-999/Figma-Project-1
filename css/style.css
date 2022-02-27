@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  background-color: #f5f6f8;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 720px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.saas {
+  position: absolute;
+  top: 64px;
+  left: 165px;
+}
+
+.left__side {
+  max-width: 720px;
+  background: #f5f6f8;
+  margin-top: 160px;
+  margin-left: 160px;
+}
+
+.sign__in {
+  font-family: Poppins;
+  font-size: 56px;
+  color: #192a3e;
+}
+
+.email,
+.password {
+  border: none;
+  border-bottom: 1px solid #d3d8dd;
+  font-family: Poppins;
+  font-size: 13px;
+  background: #f5f6f8;
+  width: 350px;
+  padding-bottom: 6px;
+  opacity: 50%;
+}
+
+.eye {
+  margin-left: -2.5rem;
+}
+
+.email {
+  margin-top: 50px;
+  margin-bottom: 45px;
+}
+
+.password {
+  margin-bottom: 32px;
+}
+
+.email:focus,
+.password:focus {
+  outline: none;
+}
+
+.below {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.unchecked {
+  margin-right: 12px;
+}
+
+.keep__logged {
+  font-family: Poppins;
+  font-size: 12px;
+  opacity: 50%;
+}
+
+.sign__in--button {
+  font-family: Poppins;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  background-color: #109cf1;
+  color: #ffffff;
+  width: 350px;
+  height: 48px;
+  margin-bottom: 100px;
+}
+
+.dont {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #4c5862;
+}
+
+.blue__area {
+  font-family: Poppins;
+  font-size: 13px;
+  color: #109cf1;
+}
+
+.right__side {
+  grid-column-start: 2;
+  background: linear-gradient(41.53deg, #34aff9 0%, #098edf 100%);
+}
+
+.man {
+  margin-top: 60px;
+  margin-bottom: 40px;
+  margin-left: 184px;
+}
+
+.manage {
+  font-family: Poppins;
+  font-size: 20px;
+  color: #ffffff;
+  margin-left: 236px;
+  margin-right: 236px;
+  margin-bottom: 12px;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 2rem;
+  font-size: 1.3rem;
+  font-family: Poppins;
+  color: rgba(255, 255, 255, 1);
+  width: 400px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  opacity: 70%;
+  margin-left: 200px;
+  margin-bottom: 60px;
+}
+
+.slider {
+  margin-left: 346px;
+}
